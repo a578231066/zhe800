@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/shopCar.css">
+</head>
+<body>
+<!--carMain-->
+<div id="carMain">
+	<div class="carShow">
+		<div class="carShowTitle">
+			我的购物车
+		</div>
+		<div class="carShowCon">
+			<table>
+				<thead>
+					<tr class="firstTr">
+						<td class="queue1"><input type="checkbox"/>全选</td>
+						<td class="queue2">商品</td>
+						<td class="queue3">信息</td>
+						<td class="queue4">单价</td>
+						<td class="queue5 juZ">数量</td>
+						<td class="queue6">小计(元)</td>
+						<td class="queue7">操作</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="queue1">
+							<input type="checkbox" name="fruit"/>
+						</td>
+						<td class="queue2">
+							<img src="images/ceshi2.jpg" /> 
+							<a href="#">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</a>
+						</td>
+						<td class="queue3">
+							<span>电子/手机</span>
+						</td>
+						<td class="queue4">
+							<div>
+								￥<span>1999.00</span>
+							</div>
+						</td>
+						<td class="queue5">
+							<div>
+								<a href="javascript:void(0);" class="minus">-</a><!--
+							 --><input type="text" value="1" class="xSum" /><!--
+							 --><a href="javascript:void(0);" class="add">+</a>
+							</div>
+						</td>
+						<td class="queue6">
+							￥<span class="priseY"></span>
+						</td>
+						<td class="queue7">
+							<a href="javascript:void(0)">删除</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="queue1">
+							<input type="checkbox" name="fruit"/>
+						</td>
+						<td class="queue2">
+							<img src="images/ceshi2.jpg" /> 
+							<a href="#">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</a>
+						</td>
+						<td class="queue3">
+							<span>电子/手机</span>
+						</td>
+						<td class="queue4">
+							<div>
+								￥<span>1999.00</span>
+							</div>
+						</td>
+						<td class="queue5">
+							<div>
+								<a href="javascript:void(0);" class="minus">-</a><!--
+							 --><input type="text" value="1" class="xSum"/><!--
+							 --><a href="javascript:void(0);" class="add">+</a>
+							</div>
+						</td>
+						<td class="queue6">
+							￥<span class="priseY"></span>
+						</td>
+						<td class="queue7">
+							<a href="javascript:void(0)">删除</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="jieSuan">
+			<a href="#" class="pay">结算</a>
+			<p class="jieSuanSum">总计：<span>￥<b></b></span></p>
+			<p class="jieSuanNum">共选择 <b></b> 件商品</p>
+			<a href="javascript:void(0)" class="delShop">批量删除</a>
+		</div>
+	</div>
+
+</div>
+<!--carMain end-->
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/shopCar.js"></script>
+</body>
+</html>
