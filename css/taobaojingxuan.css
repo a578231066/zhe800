@@ -1,0 +1,65 @@
+
+/*bg*/
+#bg{ border-top: 1px solid #E5E5E5; width: 100%; background: #F5F5F5; }
+
+/*banner*/
+#banner{ width: 1200px; height: 304px; margin: 0 auto; }
+#banner .tab{ width: 148px;}
+#banner .tab ul{ width: 148px; height: 306px; }
+#banner .tab ul a{ color: #333333; }
+#banner .tab ul li{ width: 136px; height: 30px; margin-left: 7px; border-bottom: 1px solid #E0E0E0;}
+#banner .tab ul li a{ position: relative; top: 4px;}
+#banner .tab ul li.meirZhid{ border: none; }
+#banner .tab ul li .nvZhuang,.nanZhuang,.muYing,.jiaFang,.xiePin,.shuMa,.meiZhuang,.yunDong{ position: relative; left: 20%; }
+#banner .tab ul li .neiYi,.meiShi,.erTong,.juJia,.xiangBao,.jiaDian,.peiShi{ position: relative; left: 40%; }
+#banner .tab ul li .zhongLao{ position: relative; left: 35%; }
+#banner .tab ul li .zuiHou{ border-left-right:1px solid #333333;}
+#banner .box{width: 1200px; height: 300px; margin:0 auto ; position:relative;}
+#banner .box .box_img{width: 100%; height: 100%;}
+#banner .box .box_img ul li{ position:absolute; display: none;}
+#banner .box .box_img ul li a{ display: block; width: 100%; height: 100%;}
+#banner .box .box_img ul li img{width: 1200px; height: 300px;}
+#banner .box .box_tab{ position: absolute; left:42%; bottom:20px;}
+#banner .box .box_tab a{ padding:5px 5px; color: #fff; font-weight:bold; background:rgba(255,255,255,.8); text-transform: lowercase;shadow:1px 0px 1px #333; border-radius:30px; margin-right:10px; display: inline-block; text-align: center; border:1px solid #999;}
+#banner .box .box_tab a.active{background:#f00;}
+#banner .rightPic{ position: relative; left: 20px; }
+#banner .rightPic ul li{ margin-top: 14px; }
+
+/*main*/
+#main{ width: 100%; margin-top: 20px; }
+#main .area{ width: 1170px; height: 40px; line-height: 40px; padding: 0 15px; margin: 0 auto; background: #fff; }
+#main .area a{ margin-right: 18px; float: left; font-size: 14px; }
+#main .area a:hover{ color: #d00; }
+#main .area a.one{ color: #d00; font-weight: 700; }
+#main .smallFour{  width: 1200px; height: 202px;  margin: 0 auto; margin-top: 20px; margin-bottom: 10px; }
+#main .smallFour ul{ width: 1220px; }
+#main .smallFour ul li{ width: 285px; height: 202px; margin-right: 20px; float: left; }
+#main .smallFour ul li a img{ width: 285px; height: 202px; }
+#main .smallFour ul li a img:hover{ box-sizing:border-box;border: 1px solid #ec1611; }
+#main .showcase{ width: 1200px; padding-bottom: 20px; margin: 0 auto; background: #F2F2F2; }
+#main .showcase .store{ width: 298px; height: 375px; float: left; margin-left: 1px; }
+#main .showcase .store .juZh{ width: 283px!important; margin:0 auto; position: relative;}
+#main .showcase .store .juZh:hover{ box-shadow:5px 0 10px #ddd, -5px 0 10px #ddd; }
+#main .showcase .store .juZh a.coupon{ background: url(http://www.zhe9000.com/static/zhe_image/ico_mquan.png);display: inline-block; position: absolute; z-index: 98; width: 74px; height: 74px; top: 0px; background-size: 100%; background-repeat: no-repeat; line-height: 72px; text-align: center; color: white; }
+#main .showcase .store img{ width: 283px; height: 283px; margin-left: -12px; }
+#main .showcase .store p{ width: 283px; height: 20px; line-height: 20px; text-align: center; margin-top: -20px; background: black; opacity: 0.4; color: #fff; }
+#main .showcase .store p.mouseShow{ display: none; }
+#main .showcase .store p a{ color: #fff; }
+#main .showcase .store h3{ padding: 5px 0px 0 12px; height: 20px; width: 271px; color: #666; text-align: left; font:12px/20px Arial,"微软雅黑"; white-space: nowrap; text-overflow:ellipsis; background-color: #fff; overflow: hidden;  }
+#main .showcase .store a{ margin: 0 auto; width: 265px; height: 20px;  padding: 5px 10px 0 12px; margin-top: 2px;}
+#main .showcase .store a em{ color: #f00; }
+#main .showcase .store h4{ width: 283px; height: 34px;  ; background: #fff; padding: 3px 0 6px 0; position: relative;}
+#main .showcase .store h4 em{  height: 30px; font: 33px/44px Arial; display: inline-block; line-height: 40px; color: #FF3366; margin-left: 20px; }
+#main .showcase .store h4 em b{ font-size: 12px;}
+#main .showcase .store h4 del{ font-size: 12px; color: #999; text-decoration:line-through; display: inline-block; }
+#main .showcase .store h4 .sold{ width: 72px; white-space: nowrap; text-overflow:ellipsis; text-align: right; display: block; font:12px/12px "微软雅黑"; color: #999; line-height: 21px; z-index: 1001; display: inline-block; margin-left: 4px;}
+#main .showcase .store h4 .xiangQ{ position: absolute; top: 16px; right:2px; }
+#main .showcase .store h4 .xiangQ a{ color: #FF4C66; }
+#main .pageNav{ margin: 0 auto; text-align: center; padding-bottom: 30px; }
+#main .pageNav span { background: #ED0F08; color: #fff; font-weight: bold; text-align: center; display: inline-block; margin-left: 1px; padding: 10px 15px; overflow: hidden; }
+#main .pageNav span.pgPrev{ color: #bbb; font-weight: normal; background: none repeat scroll 0 0 #FFFFFF; width: 60px; border-radius: 20px 0 0 20px; }
+#main .pageNav a,#main .pageNav i{ display: inline-block; background: none repeat scroll 0 0 #FFF; margin-left: 1px; padding: 10px 15px; overflow: hidden; color: #a3370f; font-size: 14px; font-weight: bold; border-right: none; -moz-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); -webkit-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); box-shadow: 1px 1px 3px rgba(226,226,226,0.75); } 
+#main .pageNav i{ color: #d4d4d4;}
+#main .pageNav a{ transition:.8s; }
+#main .pageNav a.pgNext{ width: 60px; border-radius: 0 20px 20px 0; text-align: center; }
+#main .pageNav a:hover{ color: #FF0F38; transition:.8s; }
