@@ -1,0 +1,44 @@
+/*
+项目负责人：赵强
+项目创建日期:2017.7.25
+最新更新:2017.7.25
+修改人员:无
+修改日期:无
+修改原因:无
+修改代码行数区间:无
+*/
+
+/*banner*/
+#banner{width: 100%; height:240px; margin-right: auto;  margin-left: auto; background: url(../images/tihuan/youpinBanner.jpg) center center no-repeat; }
+
+/*main*/
+#main{	width: 100%; background: #F6F6F6; }
+#main .titleNav{ width: 100%; padding-bottom: 20px; }
+#main .titleNav .titleNavCon{ width: 1170px; height: 37px; padding: 0 15px; margin: 0 auto; background: #fff; position: relative; top: 12px; }
+#main .titleNav .titleNavCon a{ display: inline-block; font-size: 14px; padding-right: 22px; line-height: 37px;}
+#main .titleNav .titleNavCon a:hover{ color: #C90000; }
+#main .titleNav .titleNavCon a.one{ color:#C90000; font-weight: bold; }
+#main .shopShow{ width: 1200px; padding-bottom: 20px; margin: 0 auto; }
+#main .shopShow .goods {width: 275px;height: 380px; padding: 7px; border: 1px solid #eaeaea; border-top-color:#fff; text-align: center; font-family: '微软雅黑'; background: #fff; margin-right: 1%; position: relative; margin-top: 15px; }
+#main .shopShow .goods:hover{ border:1px solid #C7000A; }
+#main .shopShow .goods a img{width: 275px;height: 275px;}
+#main .shopShow .goods>span{ position: absolute; top: 0; left: 0; }
+#main .shopShow .goods .goodTitile{ width: 275px; height: 29px; line-height: 29px; color: #666; font-size: 12px; border-bottom: 1px solid #f2f2f2; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#main .shopShow .goods .info{ width: 275px; height: 44px; border-top: 1px solid #fafafa; line-height: 44px; }
+#main .shopShow .goods .info .nowPrice{ font-size: 34px; color: #c7000b; font-weight: 700; }
+#main .shopShow .goods .info .nowPrice i{ font-weight: 400; font-family: Arial; margin-right: 4px; font-size: 20px; }
+#main .shopShow .goods .info .specPrice{ position: relative; display: inline-block; height: 30px; margin-left: 5px; text-align: left; }
+#main .shopShow .goods .info .specPrice em{ text-decoration: line-through; font-size: 12px; color: #c1c1c1; }
+#main .shopShow .goods .commentSold{ width: 275px; height: 16px; text-align: center; font-size: 12px; color: #999; }
+#main .shopShow .goods .commentSold i{ color: #69b200; font-weight: 700; }
+#main .shopShow .goodsEnd{ margin-right: 0px; }
+#main .pageNav{ margin: 0 auto; text-align: center; margin-bottom: 20px; }
+#main .pageNav span { background: #ED0F08; color: #fff; font-weight: bold; text-align: center; display: inline-block; margin-left: 1px; padding: 10px 15px; overflow: hidden; }
+#main .pageNav span.pgPrev{ color: #bbb; font-weight: normal; background: none repeat scroll 0 0 #FFFFFF; width: 60px; border-radius: 20px 0 0 20px; }
+#main .pageNav a,#main .pageNav i{ display: inline-block; background: none repeat scroll 0 0 #FFF; margin-left: 1px; padding: 10px 15px; overflow: hidden; color: #a3370f; font-size: 14px; font-weight: bold; border-right: none; -moz-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); -webkit-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); box-shadow: 1px 1px 3px rgba(226,226,226,0.75); } 
+#main .pageNav i{ color: #d4d4d4;}
+#main .pageNav a{ transition:.8s; }
+#main .pageNav a.pgNext{ width: 60px; border-radius: 0 20px 20px 0; text-align: center; }
+#main .pageNav a:hover{ color: #FF0F38; transition:.8s; }
+
+
