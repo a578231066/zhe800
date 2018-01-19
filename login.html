@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<!-- 避免IE使用兼容模式 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>商城首页</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/headAndFoot.css" type="text/css">
+	<link rel="stylesheet" href="css/login.css" type="text/css">
+</head>
+<body>
+
+	<!--headerAndNav-->
+	
+	<!--headerAndNav end-->
+	
+	<!--main-->
+	<div id="main">
+		<div class="login">
+			<div class="pic">
+				<img src="images/jiaoyi.png"/>
+			</div>
+			<div class="loginCon">
+				<div class="loginMode">
+					<ul>
+						<li>
+							<a href="javascript:void(0);" class="one dengLu">账号登录<i></i></a>
+						</li>
+						<li>
+							<a href="javascript:void(0);" class="pDengLu">手机登录/注册<i></i></a>
+						</li>
+						<p class="lear"></p>
+					</ul>
+					<div class="loginApi">
+						<div class="userLogin show">
+							<form>
+								<dl>
+									<dt>账&nbsp;&nbsp;&nbsp;号 :</dt>
+									<dd>
+										<input type="text" class="input" placeholder="用户名/手机号" name="username" required="required"/>
+									</dd>
+								</dl>
+								<dl>
+									<dt>密&nbsp;&nbsp;&nbsp;码 :</dt>
+									<dd>
+										<input type="password" class="input" placeholder="请输入密码" name="password" required="required"/>
+									</dd>
+								</dl>
+								<div class="handel">
+									<span>
+										<input type="checkbox" checked="checked" value="1" name="remember" class="ck">两周之内免登录
+									</span>
+									<a href="#">忘记密码？</a>
+								</div>
+								<div class="submitDiv">
+									<input type="hidden" name="form" />
+									<input type="hidden" name="action" />
+									<input type="submit" name="sub" class="submit" />
+								</div>
+							</form>
+						</div>
+						<div class="phoneLogin">
+							<form>
+								<dl>
+									<dt>手机号码 :</dt>
+									<dd>
+										<input type="text" class="input" placeholder="手机号码" name="mobile" required="required" maxlength="11"/>
+										<img src="images/guanbi.png"/>
+									</dd>
+								</dl>
+								<div id="drag">
+									
+								</div>
+								<dl class="yanZheng">
+									<dt>验证码 :</dt>
+									<dd>
+										<input type="text" class="input" name="mobile" required="required"/>
+									</dd>
+								</dl>
+								<p class="liJ">
+									<a href="javascript:void(0);" class="get">
+										获取验证码
+									</a>
+								</p>
+								<div class="submitDiv">
+									<input type="hidden" name="form" />
+									<input type="hidden" name="action" />
+									<input type="submit" name="pSub" class="submit" />
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="qiTaDengLu">
+						<p>您可以用合作伙伴账号登录:</p>
+						<strong>
+							<a href="#"><img src="images/loginQQ.png" alt="QQ登录"/></a>
+						</strong>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--main end-->
+
+	<!--footer-->
+	
+	<!--footer end-->
+
+	<script src="js/jquery-1.7.1.min.js"></script> 
+	<script src="js/login.js"></script>
+	<script src="js/drag.js"></script>
+	<script type="text/javascript">
+	$('#drag').drag();
+	</script>
+</body>
+</html>
