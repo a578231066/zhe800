@@ -1,0 +1,69 @@
+
+/*header*/
+#header{ width: 100%; min-width: 1200px;}
+#header .topMain{ height: 20px; width: 1200px; margin: 0 auto; padding: 5px 0; }
+#header .top{ width: 100%; height: 30px;  }
+#header .top>div{ width: 100%; background: #fff; border-bottom: 1px solid #F0F0F0; }
+#header .top .up{ background: #fafafa; }
+#header .top div li{ float: left; margin-right: 12px; font-size: 13px; }
+#header .top div.l{ width: 600px; }
+#header .top div.r{ width: 600px; }
+#header .top div.r img{ width: 18px; height:20px; } 
+#header .top div.r dl dt, #header .top div.r dl dd{ float: left; margin-right: 18px; position: relative; }
+#header .top div.r dl dt img{ vertical-align:middle; position: absolute;left: -20px;}
+#header .top div.r dl dd em{ background:url(http://www.zhe9000.com/static/zhe_image/top_bg.png) no-repeat 0 0; vertical-align: middle; display: inline-block; width: 6px; height: 3px; margin-left: 6px; transition: .2s ease-in;}
+#header .top div.r dl dd:hover em{ transition: .2s ease-in; transform:rotate(180deg); -ms-transform:rotate(180deg); -moz-transform:rotate(180deg); -webkit-transform:rotate(180deg); -o-transform:rotate(180deg); }
+#header .top .head{ width: 1200px; height: 100px; margin:0 auto; }
+#header .top .head h1{ width: 240px; height: 60px; float: left; margin: 17px 10px auto 0; }
+#header .top .head h1 a img{ max-width: 240px; max-height: 60px; border: medium none; vertical-align: middle; }
+#header .top .head .biao{ float: left; margin-top: 33px; margin-left: 21px; margin-right: 38px; }
+#header .top .head .search{ width: 420px; margin-left: 24px; float: left; padding-top: 28px; overflow: hidden; }
+#header .top .head .search form{ background-color: #D93600; height: 36px; padding: 1px; }
+#header .top .head .search form .inputText{ line-height: 36px; color: #555; width: 82%; float: left; padding: 8px 1%; border: none 0; font: 12px/20px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; -webkit-appearance: textfield; background-color: white; -webkit-rtl-ordering: logical; user-select: text; cursor: auto; }
+#header .top .head .search form .inputSubmit{ font-size: 14px; color: #FFF; font-weight: 600; background-color: transparent; width: 15%; height: 40px; float: right; border: none; cursor: pointer; font: 12px/20px Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; align-items: flex-start; text-align: center; }
+#header .top .head .search .keyWord{ line-height: 20px; color: #999; white-space: nowrap; width: 500px; height: 20px; margin-top: 4px; overflow: hidden; }
+#header .top .head .search .keyWord ul{ font-size: 0; vertical-align: top; display: inline-block; }
+#header .top .head .search .keyWord ul li{ font-size: 12px; vertical-align: top; letter-spacing: normal; word-spacing: normal; display: inline-block; margin-right: 12px; }
+#header .top .head .search .keyWord ul li a{ color: #777; }
+#header .top .head .qianD{ float: right; margin-right: 16px; }
+
+/*nav*/
+#nav{ width: 100%; min-width: 1200px; height: 36px; border-bottom: solid 2px #F32613; margin: 0 auto; position: relative; z-index: 99; zoom: 1; background-color: #fff ; margin-top: 10px;}
+#nav .main{ width: 1200px; margin: auto; }
+#nav .main .title{ background-color: #ec1611; display: block; width: 146px; height: 36px; float: left; }
+#nav .main .title .cate{ line-height: 20px; height: 20px; padding: 8px 10px 10px 10px; }
+#nav .main .title .cate i{ font-size: 0px; line-height: 0; background: url(http://www.zhe9000.com/static/images/top_bg.png) no-repeat -182px -186px; width: 18px; height: 14px; float: left; margin: 4px 4px 0 0; }
+#nav .main .title .cate h3 a{ font-size: 16px; font-weight: normal; color: #FFF; float: left; margin-left: 4px; text-decoration: none; }
+#nav .main>ul{ font-size: 0; white-space: nowrap; width: 1053px; max-width: 1053px; float: left; }
+#nav .main>ul li{ vertical-align: top; letter-spacing: normal; word-spacing: normal; display: inline-block; float: left; position: relative;  }
+#nav .main>ul li.liEnd{ position: none; float: right; }
+#nav .main>ul li.liEnd div{ background-image: url(http://www.zhe9000.com/static/zhe_image/daohang_qiandao.gif); background-size: 100% 100%; height: 34px; width: 126px; }
+#nav .main>ul li a{ font-size: 16px; font-weight: normal; line-height: 20px; color: #696969; height: 20px; padding: 8px 14px; display: inline-block; zoom: 1; font-family: "microsoft yahei"; }
+#nav .main>ul li img{ position: absolute; right: -9px; top: 0; }
+#nav .main>ul li:hover  a{ background: #ec1611; color: #fff; transition:.3s;}
+
+
+
+/*footer*/
+#footer{ width:100%;min-width: 1200px; font-size: 12px !important; border-top: 3px solid #EC1611; text-align: center; margin: 0 auto; padding-bottom: 10px; overflow: hidden ; background: #fff;}
+#footer .footTitle{ width: 100%; background-color: #f5f5f5; }
+#footer .footTitle .fTitleMain{ width: 1200px; margin: 0 auto; }
+#footer .footTitle .fTitleMain .agree{ padding: 5px 0px 10px 0px; text-align: center;}
+#footer .footTitle .fTitleMain .agree ul{ zoom:1; overflow: hidden; } 
+#footer .footTitle .fTitleMain .agree ul li{ margin-top: 10px; display: inline; float: left; width: 198px; border-right: 1px dotted #CCC; }
+#footer .footTitle .fTitleMain .agree ul li a{ color: #666; font: 12px/1.5 "Lucida Grande",tahoma,arial,\5b8b\4f53; display: block; padding-top: 5px; line-height: 18px; }
+#footer .footTitle .fTitleMain .agree ul li strong{ font-weight: bold; }
+#footer .footTitle .fTitleMain .agree ul li span{ display: block; color: #999; }
+#footer .footTitle .fTitleMain .agree ul li.end{ border-right: none; }
+#footer .footTitle .fTitleMain .agree ul li.end div{ margin-left: 50px; margin-top: 10px; }
+#footer .footTitle .fTitleMain .agree ul li.end div img{ float: left; width: 90px; height: 90px; }
+#footer .footTitle .fTitleMain .agree ul li.end div p{ margin-top: 20px; margin-left: 10px; float: left; font-size: 12px; }
+#footer .footTitle .fTitleMain .agree ul li.end div p span{ display: block; color: #999; }
+#footer .footMain{ font-size: 12px !important; border-top: 1px solid #e7e7e7; text-align: center; margin: 0 auto; padding-bottom: 10px; overflow: hidden; background: #FFF; width: 100%; }
+#footer .footMain>p{ color: #666; word-spacing: 5px; padding: 10px 0; }
+#footer .footMain>p a{ margin: 0 10px; }
+#footer .footMain>p a:hover{ text-decoration: underline; }
+#footer .safety{ width: 900px; height: 55px; margin: 0 auto; }
+#footer .safety ul{ overflow: hidden; zoom: 1; margin-left: 185px; }
+#footer .safety ul li{ margin-top: 5px; display: inline; float: left; width: 126px; height: 41px; margin-right: 10px; }
+#footer>span a img{ vertical-align:middle; }
