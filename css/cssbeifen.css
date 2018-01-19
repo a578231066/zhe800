@@ -1,0 +1,188 @@
+/*
+项目负责人：赵强
+项目创建日期:2017.7.20
+最新更新:2017.7.20
+修改人员:无
+修改日期:无
+修改原因:无
+修改代码行数区间:无
+*/
+
+/*只属于index.html的初始化代码*/
+h1, h2, h3, h4, h5, h6{ height: 24px; line-height: 24px; color: #999; }
+::-moz-placeholder { color: #ccc; }
+::-webkit-input-placeholder { color:#ccc; }
+:-ms-input-placeholder { color:#ccc; }
+
+
+/*header*/
+#header{ width: 100%;}
+#header div.top{ width: 100%; height: 30px; background: #FAFAFA; }
+#header div.top ul{ float: right;  width: 60%; margin-top: 5px; }
+#header div.top ul a{ color: #999; }
+#header div.top ul li{ width: 11%; height: 70%; float: left; border-right: 1px solid #aaa; text-align: center; }
+#header div.top ul li img{ vertical-align: -18%; }
+#header div.top ul li.kong{ border-right: none; }
+#header div.top ul li.red { width: 12%; }
+#header div.top ul li.red a{ color: #EC1611; }
+#header div.down{ width: 1200px; height: 40px; margin: 0 auto; margin-top: 22px; }
+#header div.down>div{ display: inline-block; }
+#header div.down .souSuo { margin-left: 2%; margin-top: 6px; }
+
+#header div.down .souSuo a{ display: inline-block; }
+#header div.down .souSuo input{ border: 2px solid #E60044; width: 376px; height: 35px; display: inline-block; border-left: none; border-right: none;padding-left: 10px;}
+#header div.down .souSuo p{ height: 35px;width: 40px; border: 2px solid #E60044; border-left: none; border-right:none;}
+#header div.down .souSuo p img{ margin-top: 6px; }
+#header div.down .headThree { margin: 4px 0 0 30px; }
+
+/*nav*/
+#nav { width: 1200px; margin: 0 auto; margin-top:16px; margin-bottom: 60px;}
+#nav dl dt,dd{ float: left; }
+#nav dl dt a,#nav dl dd a{ display: block; }
+#nav dl dt{ width: 150px; height: 40px; text-align: center; background: #E60044; line-height: 40px; font-size: 18px; font-weight: bold; }
+#nav dl dt a{  color:#fff; }
+#nav dl dd{ width: 130px; height: 40px; text-align: center; font-size: 18px; line-height: 40px;}
+#nav dl dd:hover { border-bottom: 2px solid #E60044; box-shadow: 10px 0px 5px -5px #ccc, -10px 0px 5px -5px #ccc; }
+#nav dl dd.qianDao{ width: 126px; height: 34px; background-image: url(../images/fenXiang.gif); background-size: 100%; margin: 4px 0 0 8px;}
+#nav dl dd.qianDao:hover{ border: none; box-shadow: none; }
+
+/*banner*/
+#banner{ width: 1200px; height: 304px; margin: 0 auto; }
+#banner .tab{ width: 148px;}
+#banner .tab ul{ width: 148px; height: 306px; }
+#banner .tab ul a{ color: #333333; }
+#banner .tab ul li{ width: 136px; height: 30px; margin-left: 7px; border-bottom: 1px solid #E0E0E0;}
+#banner .tab ul li a{ position: relative; top: 4px;}
+#banner .tab ul li.meirZhid{ border: none; }
+#banner .tab ul li .nvZhuang,.nanZhuang,.muYing,.jiaFang,.xiePin,.shuMa,.meiZhuang,.yunDong{ position: relative; left: 20%; }
+#banner .tab ul li .neiYi,.meiShi,.erTong,.juJia,.xiangBao,.jiaDian,.peiShi{ position: relative; left: 40%; }
+#banner .tab ul li .zhongLao{ position: relative; left: 35%; }
+#banner .tab ul li .zuiHou{ border-left-right:1px solid #333333;}
+#banner .box{width: 955px; height: 300px; margin:0 auto ; position:relative; left: 0.5%;}
+#banner .box .box_img{width: 100%; height: 100%;}
+#banner .box .box_img ul li{ position:absolute; display: none;}
+#banner .box .box_img ul li a{ display: block; width: 100%; height: 100%;}
+#banner .box .box_img ul li img{width: 100%; height: 300px;}
+#banner .box .box_img ul li p.one a>img{position: absolute;top: 10px;left: 813px; width:137px; height:137px; }
+#banner .box .box_img ul li p.two a>img{position: absolute;top: 154px;left: 813px; width:137px; height:137px; }
+#banner .box .box_tab{ position: absolute; left:42%; bottom:20px;}
+#banner .box .box_tab a{ padding:5px 5px; color: #fff; font-weight:bold; background:rgba(255,255,255,.8); text-transform: lowercase;shadow:1px 0px 1px #333; border-radius:30px; margin-right:10px; display: inline-block; text-align: center; border:1px solid #999;}
+#banner .box .box_tab a.active{background:#f00;}
+#banner .rightPic{ position: relative; left: 20px; }
+#banner .rightPic ul li{ margin-top: 14px; }
+
+
+/*main*/
+#main .hot{ width: 1200px; height: 44px; margin:0 auto; margin-top: 30px; border-bottom: 1px solid #f00;}
+#main .hot>span{ margin-left: 20px; color: #FF404C; font-size: 24px; font-weight: bold; height: 44px; margin-top: 5px; }
+#main .hot>span img{ position: relative; top: 6px; }
+#main .hot p{ display: inline-block; }
+#main .hot p a{ font-size: 14px; }
+#main .hot p span{  background:#FF404C; display: inline-block; width: 10px; height: 10px; border-radius: 50%; z-index: 111; position: relative; left: 10%;  }
+#main .hot ul{ display: inline-block; width: 500px; height: 28px; float: right; margin-top: 16px; }
+#main .hot ul li{ float: left; width:52px; height: 28px; line-height: 28px; font-size: 13px; text-align: center;}
+#main .hot ul li.allBrands{ width: 76px; background: #FF404C; }
+#main .hot ul li.allBrands a{ color: #fff; }
+#main .hot ul li.allBrands a:hover{ color: #fff; }
+#main .hot ul li a:hover{ color: #f00; }
+
+#main .coupon{width: 1200px; height: 200px; margin: 0 auto;}
+#main .coupon>div { display: inline-block; }
+#main .coupon>div img{ width: 100%; margin: 0; padding: 0; }
+#main .coupon>div p{ width: 392px; height: 25px; line-height: 25px; text-align: center; color: #fff; background: #000; opacity: 0.5; position:relative; top: -30px; }
+
+#main .coupon .couponTwo,.couponThree{ margin-left: 0.24%; }
+#main .brand{ width: 1200px;height: 120px; margin: 0 auto; margin-top: 10px;}
+#main .brand ul li {  float: left; margin: 0; padding: 0;}
+#main .brand ul li.one i.fenge{ display: block; height: 18px; top: 23px; position: absolute;top: 780px; border-right: 1px solid #eaeaea; margin-left: 120px;}
+#main .brand ul li.two i.fenge{ display: block; height: 18px; top: 23px; position: absolute;top: 845px; border-right: 1px solid #eaeaea; margin-left: 120px;}
+#main .brand ul li a:hover { position:relative;left:-3px;top:0;z-index:99;width:126px;height:60px;overflow:hidden }
+#main .brand ul li a img:hover{ box-shadow:0 0 30px 0px #999 }
+#main .showcase{ width: 1200px; height: 28125px; margin: 0 auto; background: #F2F2F2; }
+#main .showcase .store{ width: 298px; height: 375px; float: left; margin-left: 1px; }
+#main .showcase .store .juZh{ width: 283px!important; margin:0 auto;}
+#main .showcase .store .juZh:hover{ box-shadow:0px 0px 15px #999; }
+#main .showcase .store img{ width: 283px; height: 283px; margin-left: -12px; }
+#main .showcase .store p{ width: 283px; height: 20px; line-height: 20px; text-align: center; margin-top: -20px; background: black; opacity: 0.4; color: #fff; }
+#main .showcase .store p.mouseShow{ display: none; }
+#main .showcase .store h3{ padding: 5px 0px 0 12px; height: 20px; width: 271px; color: #666; text-align: left; font:12px/20px Arial,"微软雅黑"; white-space: nowrap; text-overflow:ellipsis; background-color: #fff; overflow: hidden;  }
+#main .showcase .store a{ margin: 0 auto; width: 265px; height: 20px;  padding: 5px 10px 0 12px; margin-top: 2px;}
+#main .showcase .store a em{ color: #f00; }
+#main .showcase .store h4{ width: 283px; height: 34px;  ; background: #fff;}
+#main .showcase .store h4 em{ width: 18%; height: 30px; font: 22px/33px Arial; display: inline-block; padding-right:5px; line-height: 30px; color: #ec1611; }
+#main .showcase .store h4 em b{ font-size: 12px;}
+#main .showcase .store h4 del{ font-size: 12px; color: #999; text-decoration:line-through; display: inline-block; }
+
+#main .showcase .store h4 .appZ{  max-width: 120px; height: 14px;width: 32%; border:1px solid #FF8F8F; overflow: hidden; white-space: nowrap; text-overflow:ellipsis; position: relative; top: 1px; height: 14px; background: #ff6767; color: #fff; font-size: 10px; display: inline-block; margin:10px 0 0 ; padding: 0 2px; line-height: 14px; font-family: "微软雅黑"; text-align: center; }
+#main .showcase .store h4 .sold{ width: 72px; white-space: nowrap; text-overflow:ellipsis; text-align: right; display: block; font:12px/12px "微软雅黑"; color: #999; line-height: 21px; z-index: 1001; display: inline-block;}
+#main .showcase .store h5{ display: inline-block;  border-top: 1px dashed #c1c1c1; width: 283px; background: #fff; }
+#main .showcase .store h5.mouseShow{ display: none; }
+#main .showcase .store h5>span{ color: #FF8D8D; }
+
+#main .showcase .store h5 .shou,.xiang{ position: relative; left; padding-left: 2px !important; }
+#main .showcase .store h5 a img{ width: 12px; height: 12px; } 
+#main .showcase .store h5 a span{ float: left;  }
+@media (min-width: 1480px){
+#main .showcase .store h5 a{ margin-left: -5%; }
+#main .showcase .store h5 a.shou{ margin-left: -5%; }
+#main .showcase .store h5 a.xiang{margin-left: 0%; padding-left: 0!important;}
+}
+#main .tuijianShop{width: 1200px; height: 159px; margin:0 auto;}
+#main .tuijianShop p{width: 232px; height: 159px; float: left;}
+#main .tuijianShop p:hover{  box-shadow:-8px 0 8px #aaa,   
+    8px 0 8px #aaa; transition: 0.5s;  }
+#main .tuijianShop p.bianJu{ margin-left: 0.83%; }
+#main .tuijianShop p a img{ width: 232px; height: 159px; }
+
+/*footer*/
+#footer{ width:100%; border-top: 3px solid #EC1611; margin-top: 40px; }
+#footer .about{ width: 1200px; height: 301px; margin:0 auto;margin-top: 10px; }
+#footer .about a:hover{ color: #f00; text-decoration:underline;}
+#footer .about ul{ width: 1200px; height: 301px; margin:0 auto; }
+#footer .about ul li{ float: left; width: 137px; text-align: left; padding: 28px 0 0; height: 270px; line-height: 24px; }
+#footer .about ul li.w1{ width: 100px; height: 298px; padding-left: -115px; }
+#footer .about ul li.w3{ padding-left: 70px; width: 157px; }
+#footer .about ul li.w3 span{ position: relative; left: -13%; }
+#footer .about ul li.lw{ width: 200px; height: 298px; padding-left: 110px; }
+#footer .about ul li.lw,li.w1 a{ display:block;  color: #999;  height: 24px; width: 85px; }
+#footer .about ul li.w1 span{ display: block; font: 16px/30px "microsoft yahei"; color: #333;}
+#footer .about li.w3 h3, .about li.w3 h4, .about li.w3 h5, .about .desktop{ height: 24px; line-height: 24px; color: #999; }
+#footer .about ul li.w2{ width: 170px; padding-left: 110px;  }
+#footer .about ul li.w2>span{ display:inline-block; font: 16px/30px "microsoft yahei";color: #333;}
+#footer .about ul li.w2 span.red{ color: #f00; font-size: 12px; font-weight: 400; }
+#footer .about ul li.w2 span.red:hover{ text-decoration:underline; }
+#footer .about ul li h6 input{ height: 23px; line-height: 23px; width: 98px; padding-left: 5px; color: #ccc; font-family: "微软雅黑"; border: 1px solid #eaeaea; vertical-align: middle; float: left;}
+#footer .about ul li h6 input:focus { outline:none; border: 1px solid #A6C8FF; }
+#footer .about ul li h6 input.smt{ height: 25px; line-height: 25px; width: 42px; cursor: pointer; color: #999; font-family: "微软雅黑"; margin-left: 0; }
+#footer .fLink{ width: 750px; height: 20px; margin: 0 auto; }
+#footer .fLink ul li{ padding: 0 10px; float: left; }
+#footer .fLink ul li.more{ position: relative; left: 27%; }
+#footer .foot{ width: 1200px; height: 100px; margin: 0 auto; margin-top: 10px;}
+@media (min-width: 1480px){
+#footer .foot{ width: 1400px; height: 100px; margin: 0 auto; margin-top: 10px;}
+}
+#footer .foot .footOne{width: 100%; height: 40px; line-height: 40px; margin: 0 auto;}
+#footer .foot .footOne a,#footer .foot .footOne span{ display: block; float: left; margin-left: 4.3%; font-size: 0.8em; }
+#footer .foot .footTwo{ text-align: center; }
+#footer .foot .footThree{ margin-top: 20px;padding-bottom: 30px;}
+#footer .foot .footThree .juZhong{ width: 22%; margin: 0 auto ;}
+#footer .foot .footThree .juZhong span{ padding: 0 2%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

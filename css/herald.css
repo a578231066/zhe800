@@ -1,0 +1,57 @@
+
+/*main*/
+#main{ width: 100%; min-width: 1200px; font-family: '微软雅黑'; overflow: hidden;width: 100%; border-top: 1px solid #E5E5E5; background: #F5F5F5; }
+#main .yuIntro { height: 71px; }
+#main .yuIntro .junavInfo .area{ width: 1200px; height: 40px; line-height: 40px; margin: 0 auto; }
+#main .yuIntro .junavInfo .area>span{  overflow: hidden; line-height: 40px; }
+#main .yuIntro .junavInfo .area span div span.tit{ font-size: 14px; color: #e02f2f; font-weight: 700; }
+#main .yuIntro .junavInfo .area span div span.jinRi{ color: #666; }
+#main .yuIntro .junavInfo .area span div span.jinRi b{ font-weight: 700; }
+#main .yuIntro .category{ text-align: left; }
+#main .yuIntro .category .area{ height: 31px; line-height: 31px; width: 1200px; margin: 0 auto; border-top: 1px solid #D6D6D6; }
+#main .yuIntro .category .area a{ margin-right: 18px; float: left; color: #666; font-size: 14px; }
+#main .yuIntro .category .area a:hover{ color: #ec1611; }
+#main .yuIntro .category .area a.one{ font-weight: 700; color: #ec1611; }
+#main .shop{ width: 1200px; margin: 0 auto;  }
+#main .shop .area{ width: 1200px; padding-bottom: 20px;}
+#main .shop .area .dealbox{ width: 1250px; }
+#main .shop .area .dealbox .deal{ width: 305px; height: 375px; margin-left: -10px; overflow: hidden; float: left; }
+#main .shop .area .dealbox .deal:hover .con div.bottomWord{ display: block; }
+#main .shop .area .dealbox .deal .con{ width: 283px; height: 345px; margin: 0 11px 30px; background: #fff; position: relative; }
+#main .shop .area .dealbox .deal .con:hover{ padding: 0; z-index: 101; box-shadow: 5px 0 10px #ddd, -5px 0 10px #ddd; }
+#main .shop .area .dealbox .deal .con>a{ width: 283px; height: 283px; display: block; }
+#main .shop .area .dealbox .deal .con>a img{ width: 283px; height: 283px; }
+#main .shop .area .dealbox .deal .con h3{ width: 261px; padding: 5px 10px 0 12px; height: 20px; color: #666; text-align: left; font: 12px/20px Arial,"microsoft yahei"; white-space: nowrap; text-overflow: ellipsis; background-color: #fff; overflow: hidden; margin-top: 0; }
+#main .shop .area .dealbox .deal .con h4{ width: 263px; padding: 0 8px 2px 12px; height: 34px; position: relative; text-align: left; background: #fff; line-height: 35px; overflow: hidden; white-space: nowrap; z-index: 999; }
+#main .shop .area .dealbox .deal .con h4 em{ color: #69b200; display: inline-block;height: 30px; line-height: 30px; font-weight: 400; font: 22px/33px Arial; }
+#main .shop .area .dealbox .deal .con h4 em b{ font-family: Arial,"Microsoft Yahei",Arial; font-weight: 400; font-size: 12px; }
+#main .shop .area .dealbox .deal .con h4 del{ font-size: 12px; color: #999; font-family: "microsoft yahei"; }
+#main .shop .area .dealbox .deal .con h4 div.kuai{ max-width: 120px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;position: relative; top: 1px; height: 14px; background: #ff6767; color: #FFF; font-size: 10px; display: inline-block; margin: 10px 0 0 -4px; padding: 0 2px; line-height: 14px; border-radius: 0; font-family: "微软雅黑"; text-align: center; border: 1px solid #ff6767; font-weight: 400; -webkit-transform: scale(0.83); }
+#main .shop .area .dealbox .deal .con h4 span{ display: inline-block; }
+
+#main .shop .area .dealbox .deal .con h4>a{ bottom: 10px; font-family: "微软雅黑"; position: absolute; right: 10px; width: 95px; height: 25px; line-height: 25px; text-align: center; color: #fff; font-size: 14px; background-color: #69b200; overflow: hidden; z-index: 1; display: block; }
+#main .shop .area .dealbox .deal .con h4>a em.kaiQiang{ position: absolute; top: -3px; float: left; left: 28px; padding-right: 0; color: #fff; font-size: 14px; font-family: "微软雅黑"; }
+#main .shop .area .dealbox .deal .con h4>a em.qiangXian{ top: -32px; font-size: 14px; font-family: "微软雅黑"; color: #fff; font-weight: 400; position: absolute; right: 4px;}
+#main .shop .area .dealbox .deal .con h4>a span.kaiQiangTu{ position: absolute; left: 6px; top: 3px; width: 20px; margin: 0; }
+#main .shop .area .dealbox .deal .con h4>a span.qiangXianTu{ top: -25px;  left: -27px; display: inline; margin: 0; width: 88px;position: absolute; }
+#main .shop .area .dealbox .deal .con div.bottomWord{ width: 263px; display: none; padding: 2px 8px 2px 12px; position: relative; background-color: #fff; height: 25px; line-height: 25px; box-shadow: 5px 0 10px #ddd, -5px 0 10px #ddd; left: 0; font-family: "Microsoft Yahei"; font-size: 12px; border-top: 1px dotted #C1C1C1; }
+#main .shop .area .dealbox .deal .con div.bottomWord .title .sellalert { margin-left: 120px; cursor: pointer; font-size: 12px; font-family: "微软雅黑"; color: #b5b5b5; bottom: 6px; height: 20px; line-height: 25px; }
+#main .shop .area .dealbox .deal .con div.bottomWord .title .sellalert .sellclock{ background: url(../images/tihuan/timeS.png) no-repeat 8px; height:24px; float: left; width: 24px; margin-right: 4px;}
+#main .shop .area .dealbox .deal .con div.bottomWord .title .sellalert .selltext{ float: left; margin-left: 3px; font-size: 12px; line-height: 25px; }
+#main .shop .area .dealbox .deal .con div.bottomWord>a{ right: 9px; top: 3px; position: absolute; height: 22px; line-height: 24px; width: 44px; display: inline-block; font-family: "microsoft yahei"; overflow: hidden; background: url(../images/collect.png) no-repeat 4px; outline: 0; text-align: right; color:#b5b5b5;}
+#main .shop .area .dealbox .deal .con span{ position: absolute; top: 0; left: 10px; z-index: 5; }
+#main .shop .area .dealbox .deal .con>span img{ z-index: 100; width: 55px; height: 58px; }
+#main .shop .area .dealbox .deal .con div.saoMa{ width: 283px; height: 283px; position: absolute; z-index: 105; top: 0; display: none; }
+#main .shop .area .dealbox .deal .con div.saoMa>div{ width: 100%; height: 100%; position: absolute; background: #000; opacity: .6; filter: alpha(opacity=60); z-index: -1; }
+#main .shop .area .dealbox .deal .con div.saoMa p.download{ width: 273px; padding: 3px 0 0 4px; top: 340px; height: 26px; padding-top: 60px!important; top: 0; position: relative; color: #fff; text-align: center; display: block; background: 0 0; }
+#main .shop .area .dealbox .deal .con div.saoMa p.five{ width: 273px; padding: 3px 0 0 4px; top: 340px; height: 26px; color: #fff; text-align: center; display: block; background: 0 0;  }
+#main .shop .area .dealbox .deal .con div.saoMa>img{ display: block; margin: 10px auto; width: 100px; height: 100px; border: 3px solid #fff; }
+#main .shop .area .dealbox .deal .con div.saoMa a img{ position: absolute; right: 10px; bottom: 1px;width: 75px; height: 19px; }
+#main .pageNav{ margin: 0 auto; text-align: center; padding-bottom: 30px; }
+#main .pageNav span { background: #ED0F08; color: #fff; font-weight: bold; text-align: center; display: inline-block; margin-left: 1px; padding: 10px 15px; overflow: hidden; }
+#main .pageNav span.pgPrev{ color: #bbb; font-weight: normal; background: none repeat scroll 0 0 #FFFFFF; width: 60px; border-radius: 20px 0 0 20px; }
+#main .pageNav a,#main .pageNav i{ display: inline-block; background: none repeat scroll 0 0 #FFF; margin-left: 1px; padding: 10px 15px; overflow: hidden; color: #a3370f; font-size: 14px; font-weight: bold; border-right: none; -moz-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); -webkit-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); box-shadow: 1px 1px 3px rgba(226,226,226,0.75); } 
+#main .pageNav i{ color: #d4d4d4;}
+#main .pageNav a{ transition:.8s; }
+#main .pageNav a.pgNext{ width: 60px; border-radius: 0 20px 20px 0; text-align: center; }
+#main .pageNav a:hover{ color: #FF0F38; transition:.8s; }

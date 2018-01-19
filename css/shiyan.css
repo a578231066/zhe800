@@ -1,0 +1,791 @@
+
+@media (min-width:1280px) {
+ .brand_category_tit.brand_logo_title {
+  width:1200px
+ }
+ .brand_category_tit {
+  width:1200px
+ }
+ #contentC {
+  height:448px;
+  overflow:hidden
+ }
+ .hd_b_wide {
+  margin-top:-70px
+ }
+ #pinpai_top_banner .pinpai_top_banner {
+  width:1200px
+ }
+}
+#bannerDeal {
+ position:relative;
+ top:18px;
+ margin-top:-13px
+}
+#dealWarpperwide_e #contentC .dealbox .dealad {
+ margin-bottom:50px
+}
+/*_combo_cut*/.brands_muying {
+ margin:0 auto 11px
+}
+.brands_logo {
+ height:144px;
+ border-width:1px 0 0 1px;
+ position:relative;
+ overflow:hidden;
+ clear:both;
+ width:974px
+}
+.brands_logo .trigger {
+ position:absolute;
+ top:52px;
+ width:15px;
+ height:39px;
+ overflow:hidden;
+ background:transparent;
+ z-index:10;
+ font-size:18px;
+ color:#666;
+ line-height:40px
+}
+.brands_logo .trigger:hover {
+ color:#fff;
+ background:#e02f2f;
+ text-decoration:none;
+ font-weight:700
+}
+.brands_logo .prev {
+ left:1px
+}
+.brands_logo .next {
+ right:1px;
+ *right:4px
+}
+.brands_logo ul {
+ width:1000%
+}
+.brands_logo li {
+ float:left;
+ width:980px;
+ border:1px solid #f2f2f2;
+ background:#fff
+}
+.brands_logo li a {
+ height:69px;
+ width:137px;
+ float:left;
+ border:1px solid;
+ background-color:#fff;
+ border-color:#fff #f2f2f2 #f2f2f2 #fff;
+ position:relative
+}
+.brands_logo li a span.cover_mask {
+ background:rgba(229,229,229,.6);
+ display:block;
+ width:100%;
+ height:100%;
+ position:absolute
+}
+.brands_logo li a em {
+ display:none;
+ width:100%;
+ height:100%;
+ position:absolute;
+ color:#fff;
+ top:0
+}
+.brands_logo li a:hover span.cover_mask {
+ background:rgba(0,0,0,.6)
+}
+.brands_logo li a:hover em {
+ display:block;
+ font:16px/70px "microsoft yahei";
+ z-index:99
+}
+.brands_logo li a img {
+ width:90px;
+ height:45px;
+ margin-top:13px
+}
+.brands_logo li a:hover {
+ border:1px solid #ef6060
+}
+.brands_logo li a.brand_wall_item_zt2 {
+ border-color:#efefef #f2f2f2 #f2f2f2 #efefef
+}
+.brands_logo li a.brand_wall_item_zt2:hover {
+ border-color:#efefef #f2f2f2 #f2f2f2 #efefef
+}
+.brands_logo li .ctinue {
+ height:69px;
+ width:137px;
+ float:left;
+ background-color:#fff;
+ font-size:12px;
+ color:#999;
+ line-height:74px;
+ text-decoration:none;
+ cursor:default
+}
+.brands_logo li .ctinue:hover {
+ border-color:#fff #e2e2e2 #e2e2e2 #fff
+}
+.brands_logo a {
+ position:relative;
+ overflow:hidden
+}
+.brands_logo a:hover span {
+ display:block
+}
+.brands_logo a span {
+ position:absolute;
+ height:15px;
+ font:12px/15px "microsoft yahei";
+ color:#fff;
+ width:100%;
+ text-align:center;
+ bottom:0;
+ left:0;
+ z-index:1;
+ background:#e02f2f;
+ display:none
+}
+.brands_logo li a .brandlogo81170 {
+ position:absolute;
+ left:-2px;
+ top:0;
+ width:35px;
+ height:auto;
+ margin-top:0;
+ margin-left:0
+}
+#brands_logo {
+ position:relative;
+ overflow:hidden;
+ width:980px;
+ height:150px;
+ border-top:1px solid #e9e9e9;
+ border-left:1px solid #e9e9e9;
+ margin-bottom:15px
+}
+#brands_logo li {
+ float:left;
+ border-bottom:1px solid #e9e9e9;
+ border-right:1px solid #e9e9e9;
+ background:#fff;
+ height:74px;
+ width:139px
+}
+#brands_logo li a {
+ height:72px;
+ width:137px;
+ display:inline-block;
+ border:1px solid transparent
+}
+#brands_logo li a img {
+ width:100%;
+ height:100%
+}
+#brands_logo li a:hover {
+ border:1px solid #ec1616
+}
+#dealWarpperwide_e .brandbox.area {
+ overflow:hidden
+}
+@media screen and (min-width:1280px) {
+ #brands_logo {
+  width:1197px;
+  height:158px
+ }
+ #brands_logo li {
+  height:78px;
+  width:170px
+ }
+ #brands_logo li a {
+  height:76px;
+  width:168px
+ }
+}
+.brand_category_tit {
+ margin-top:24px
+}
+.brand_category_tit.brand_logo_title {
+ margin-top:-9px
+}
+#junav1.brand_page_nav {
+ margin-bottom:31px;
+ margin-top:23px
+}
+#junav1.brand_page_nav.junav1_fix {
+ margin-top:0
+}
+#junav1.brand_page_nav .category {
+ line-height:16px;
+ height:20px
+}
+#junav1.brand_page_nav.junav1_fix .category {
+ height:30px;
+ line-height:30px
+}
+.brandbox.area {
+ overflow:hidden
+}
+/*_combo_cut*/@media (min-width:1280px) {
+ .toolbar #toolbar {
+  width:1200px
+ }
+ .deal .mark {
+  top:218px
+ }
+ #junav .area,#seclevel .seclevelinner {
+  width:1200px
+ }
+ #seclevel,#seclevelSex {
+  width:1198px
+ }
+ #seclevel .seclevelinner,#seclevel.oder_nav .seclevelinner,#seclevelSex .seclevelinner {
+  width:1076px
+ }
+ #seclevel.tag_junav .seclevelinner {
+  width:1168px
+ }
+ #junav.junav_fix .area,#seclevel.secjunav_fix .seclevelinner {
+  width:1200px
+ }
+ .dealbox .next_img {
+  width:281px;
+  height:343px
+ }
+ .dealbox .next_img img {
+  width:283px;
+  height:283px
+ }
+ .area.topads,#dealWarpperwide,#dealWarpperwide .area,#dealWarpperwide_e,#dealWarpperwide_e .area {
+  width:1200px!important;
+  padding-left:0
+ }
+ .area.topads {
+  height:185px
+ }
+ .area.topads .dealadboxs,#dealWarpperwide .dealbox,#dealWarpperwide_e .area .dealbox {
+  width:1250px!important;
+  padding-left:0;
+  margin-left:-10px
+ }
+ #dealWarpperwide_e .deal .con {
+  width:283px;
+  height:345px;
+  margin:0 11px 30px
+ }
+ #dealWarpperwide_e .dealbox .dealad {
+  width:283px;
+  height:343px;
+  margin:0 11px 30px
+ }
+ .deal .zt2_qrcode {
+  width:281px
+ }
+ .deal .zt2_qrcode,#dealWarpperwide_e .goods_img img,#dealWarpperwide_e .dealad img,#dealWarpperwide_e .brand-cpc .goods_img img {
+  width:283px;
+  height:283px
+ }
+ #dealWarpperwide_e .goods_img img.bdg_img {
+  height:30px;
+  top:253px
+ }
+ #dealWarpperwide_e .deal.brand-index a.goods_img img.bdg_img {
+  top:253px
+ }
+ .deal.brand-index h3 {
+  width:auto;
+  padding-right:0;
+  padding-top:8px
+ }
+ .deal.wireless_deal_style h3 {
+  padding-left:12px;
+  width:263px;
+  padding-right:8px
+ }
+ .brand-index .pinpai_right_name {
+  bottom:34px
+ }
+ .brand-index .brand_fav,.brand-index .brand_fav {
+  margin-top:12px
+ }
+ .brand-index span.deals_count {
+  bottom:62px
+ }
+ .brand-index .brand_home_coupon {
+  bottom:62px
+ }
+ #dealWarpperwide_e .deal .con h4 {
+  width:263px;
+  padding:0 8px 2px 12px;
+  height:34px
+ }
+ #dealWarpperwide_e .deal-brand-index .con h4 {
+  height:32px
+ }
+ #dealWarpperwide_e h5,#dealWarpperwide_e h6 {
+  width:261px;
+  z-index:99;
+  padding-left:12px;
+  padding-right:10px;
+  padding-bottom:0
+ }
+ #dealWarpperwide_e .deal .con p {
+  width:263px;
+  top:340px;
+  padding:2px 8px 2px 12px
+ }
+ #dealWarpperwide_e .deal .con.zt2 p {
+  width:273px;
+  padding:3px 0 0 10px;
+  top:340px;
+  height:26px
+ }
+ .dealbox .con h5,.dealbox .con h6,.dealbox .con p {
+  z-index:99
+ }
+ #dealWarpperwide_e .deal h5 {
+  top:344px;
+  padding-top:3px;
+  padding-bottom:3px;
+  height:22px
+ }
+ .brand-index span.deals_count {
+  bottom:0
+ }
+ .brand-index .pinpai_right_corner {
+  bottom:62px
+ }
+ #dealWarpperwide_e .brand-index .con h4 {
+  height:32px
+ }
+ .taotbaoStore span.deals_count {
+  bottom:62px
+ }
+ .taotbaoStore .taotao_right {
+  bottom:8px
+ }
+ .deal .brand_fav {
+  right:10px;
+  top:0
+ }
+ #dealWarpperwide_e .con .sold {
+  top:317px
+ }
+ #dealWarpperwide_e .con .dtype {
+  right:10px;
+  top:320px
+ }
+ #dealWarpperwide_e .dealad h3 {
+  width:271px;
+  padding:0 0 0 12px
+ }
+ #dealWarpperwide_e .dealad h4 {
+  width:259px;
+  padding-left:12px;
+  top:1px
+ }
+ #dealWarpperwide_e .dealad h4 span {
+  width:184px
+ }
+ .deal .con.zt2 .zt2_qrcode p,.deal .con.zt3 .zt2_qrcode p {
+  top:0!important;
+  width:283px
+ }
+ .deal .con.zt2 .zt2_qrcode p.down_app_word,.deal .con.zt3 .zt2_qrcode p.down_app_word {
+  top:0!important;
+  padding-top:60px!important
+ }
+ .topads .dealadv a img {
+  width:281px;
+  height:163px
+ }
+ .topads .dealadv {
+  width:281px;
+  height:163px;
+  margin-right:20px;
+  position:relative
+ }
+ .topads .dealadv:nth-child(4) {
+  display:block
+ }
+ .topads.topadthree {
+  display:none
+ }
+ .deal h3 {
+  width:261px
+ }
+ .deal.lowQuality h3 {
+  width:256px!important;
+  padding-right:15px!important
+ }
+ .deal.lowQuality h3 .lowquality_h3 {
+  width:208px
+ }
+ .deal.lowQuality .dtype {
+  bottom:-17px!important
+ }
+ .deal.dealstyle_lft .zt3 h3,.deal.dealstyle_lft .zt2 h3 {
+  width:191px!important
+ }
+ .deal h4 span.secondText {
+  width:181px
+ }
+ .deal .zt3 h4 span.secondText,.deal .zt2 h4 span.secondText {
+  width:165px
+ }
+ .zt2 .sellalert {
+  margin-left:140px
+ }
+}
+@media screen and (max-width:1580px) {
+ #side_nav {
+  display:none
+ }
+}
+@media screen and (min-width:1580px) {
+ #side_nav {
+  margin-left:-750px!important
+ }
+}
+@media screen and (min-width:1280px) {
+ #junav1 .area {
+  width:1200px!important
+ }
+ #thisadA {
+  width:1200px!important
+ }
+ .recommenddeal {
+  width:1200px
+ }
+ #recommendtitle {
+  width:1200px
+ }
+ #recommend {
+  width:1250px
+ }
+ #recommend.area .dealstyle4 .con {
+  margin:0 10px 10px 0
+ }
+ #bottomBanner {
+  width:1200px;
+  margin-bottom:20px
+ }
+ #bottomBanner .bg_blue {
+  background-color:#a9d4f6
+ }
+ #bottomBanner .bg_yellow {
+  background-color:#ffec8f
+ }
+ #bottomBanner a {
+  width:1200px
+ }
+ #zxt_zheid {
+  width:1200px
+ }
+ #ju_tags_search_hot {
+  width:1200px
+ }
+ #ju_tags_search_hot ul {
+  width:1050px
+ }
+ .wide_css {
+  margin-left:516px!important
+ }
+ .brands_logo {
+  width:1106px;
+  margin-right:0;
+  margin-left:0;
+  display:inline-block
+ }
+ .brands_logo li {
+  width:1106px
+ }
+ .brands_logo li a {
+  width:156px
+ }
+ .brands_logo li .ctinue {
+  height:69px;
+  width:156px
+ }
+ #junav1.nine_twenty .category .area,#junav1.nine_twenty .junavInfo .area {
+  width:1168px!important
+ }
+ #junav1.junav1_fix.nine_twenty .category .area,#junav1.junav1_fix.nine_twenty .junavInfo .area {
+  width:1200px!important
+ }
+}
+@media (min-width:1280px) {
+ #dealWarpperwide_search {
+  width:1200px!important;
+  padding-left:0
+ }
+ #dealWarpperwide_search .area {
+  width:1250px!important
+ }
+ #dealWarpperwide_search .area .dealstyle4 .con {
+  margin:0 10px 10px 0
+ }
+ #recommend {
+  margin-right:0;
+  width:1250px
+ }
+ #recommendtitle {
+  margin-left:0
+ }
+}
+@media (min-width:1280px) {
+ .dealstyle6 img {
+  width:283px;
+  height:283px;
+  z-index:100;
+  margin-bottom:5px
+ }
+ #dealWarpperwide_e .dealstyle6 .con h3 {
+  padding-right:10px
+ }
+ #dealWarpperwide_e .dealstyle6 .con h4 {
+  height:35px
+ }
+ #dealWarpperwide_e .dealstyle6 .con h4 span {
+  font:14px/46px "Microsoft Yahei";
+  margin-top:0
+ }
+ #dealWarpperwide_e .dealstyle6 .con h4 i {
+  padding-top:4px
+ }
+ #dealWarpperwide_e .dealstyle6 .con h4 i.price {
+  padding-top:10px
+ }
+ #dealWarpperwide_e .deal.dealstyle6 .con h4 a {
+  bottom:5px
+ }
+ .dealstyle6 .con h4 span.price {
+  top:-5px
+ }
+}
+@media (min-width:1280px) {
+ #head_wrapper {
+  width:1200px
+ }
+ #head_wrapper #rigt_wrapper {
+  width:1050px
+ }
+ #head_wrapper #rigt_wrapper #thisadA {
+  width:951px!important
+ }
+ #thisadA .big_ban {
+  width:951px
+ }
+ #rigt_wrapper .dealadbox {
+  width:951px
+ }
+ #rigt_wrapper .dealadbox .thisadsbox {
+  width:951px
+ }
+ #rigt_wrapper .dealadbox .thisadsbox ul li {
+  width:951px
+ }
+ #rigt_wrapper .thisadsbox .dealads {
+  width:137px;
+  margin-right:0;
+  height:137px;
+  margin-bottom:10px;
+  overflow:hidden
+ }
+ #rigt_wrapper .thisadsbox .dealads .small_banner_img {
+  width:137px;
+  height:137px
+ }
+ .brand_sale {
+  width:1200px
+ }
+ .brand_sale .brand_hot {
+  width:1200px;
+  height:200px
+ }
+ .brand_sale .brand_hot a.fir_bor {
+  border-right:0
+ }
+ .brand_sale .brand_hot li a.fir_bor {
+  margin-right:12px
+ }
+ .brand_sale .brand_hot li img {
+  width:392px;
+  height:200px
+ }
+ .brand_sale .brand_infor {
+  width:1200px
+ }
+ #brandSale .brand_ads {
+  width:1200px
+ }
+ .brand_sale .brands_small_banners {
+  width:1200px;
+  background:#FFF
+ }
+ .brand_sale .brands_small_banners .banner_li {
+  width:120px
+ }
+ .brand_sale .brands_small_banners .banner_li a img {
+  width:120px
+ }
+ .brand_sale .brands_small_banners .banner_li.banner_li_last i {
+  display:none
+ }
+ .brand_sale .brands_small_banners .banner_li.banner_li_br i.right {
+  display:block
+ }
+ .flashSale_wrap,#flashSale {
+  width:1200px!important
+ }
+ #flashSale .flashSaleDeals {
+  width:1200px
+ }
+ #flashSale .flashSaleDeals li {
+  width:1206px
+ }
+ #flashSale .flashSaleDeals .saleDeal {
+  width:195px;
+  margin-right:6px
+ }
+ #flashSale .flashSaleDeals .saleDeal .dealCon {
+  width:195px;
+  height:195px
+ }
+ #flashSale .flashSaleDeals .saleDeal .dealCon .dealImg {
+  width:195px;
+  height:195px
+ }
+ #flashSale .flashSaleDeals .saleDeal .dealInfo {
+  height:29px
+ }
+ #today_deals {
+  width:1200px
+ }
+ .deal h4 .icon_pxgj {
+  max-width:120px
+ }
+}
+@media screen and (min-width:1648px) {
+ body .right_down {
+  right:34px;
+  margin-right:0
+ }
+}
+@media screen and (min-width:1888px) {
+ body .right_down {
+  right:50%;
+  margin-right:-900px
+ }
+}
+@media (min-width:1280px) {
+ .liang-nav,.lft-category .area,.lft-loading,.lft-titleline,.liang-back {
+  width:1200px!important
+ }
+ .liang-back.wfix {
+  width:100%!important
+ }
+ .dealstyle_lft .con {
+  margin:0 18px 16px 0
+ }
+ .dealstyle_lft .con {
+  width:282px
+ }
+ .lft-category .dealbox {
+  width:1250px!important
+ }
+ .dealstyle_lft .con .goods_img,.dealstyle_lft .con .goods_img img {
+  width:282px;
+  height:282px
+ }
+ .dealstyle_lft .con h3 {
+  width:262px
+ }
+ .dealstyle_lft .liang_round {
+  top:95px;
+  left:95px
+ }
+ .dealstyle_lft .con .new_kaiqiang {
+  bottom:90px
+ }
+ .dealstyle_lft h4 span {
+  width:130px
+ }
+ .dealstyle_lft .left_price em {
+  font-size:32px
+ }
+}
+@media (min-width:1280px) {
+ #UED_SmallBanners,.banner_user_info {
+  display:block
+ }
+ .brand_logo_nav_wrapper {
+  width:1198px
+ }
+ .brand_logo_nav_wrapper .brand_logo_label,#seclevel .jutagnav_label,#seclevelSex .jutagnav_label {
+  width:92px
+ }
+ .brands_logo.not_jutag_brandwall {
+  width:1198px!important
+ }
+ .brands_logo.not_jutag_brandwall li {
+  width:1200px!important
+ }
+ .brands_logo.not_jutag_brandwall li a {
+  width:169px!important
+ }
+ .brands_logo.not_jutag_brandwall li a img {
+  margin-left:40px!important;
+  margin-right:40px!important
+ }
+ #junav1 .category a {
+  margin-right:20px
+ }
+ .head_three_icon .widescreen {
+  display:block
+ }
+ .head_three_icon .narrowscreen {
+  display:none
+ }
+}
+@media (min-width:1280px) {
+ .deal.dealstyle4 .con.zt3 h3,.deal.dealstyle4 .con.zt2 h3 {
+  padding-right:0!important
+ }
+}
+@media (min-width:1280px) {
+ .brand_logo_nav_wrapper {
+  width:1198px
+ }
+ .brand_logo_nav_wrapper .brand_logo_label,#seclevel .jutagnav_label {
+  width:92px
+ }
+ .brands_logo.not_jutag_brandwall {
+  width:1198px!important
+ }
+ .brands_logo.not_jutag_brandwall li {
+  width:1200px!important
+ }
+ .brands_logo.not_jutag_brandwall li a {
+  width:169px!important
+ }
+ .brands_logo.not_jutag_brandwall li a img {
+  margin-left:40px!important;
+  margin-right:40px!important
+ }
+ #junav1 .category a {
+  margin-right:20px
+ }
+ #dealWarpperwide_e #contentC {
+  width:1200px
+ }
+}
+@media screen and (min-width:1280px) {
+ .deal .colors_icon {
+  top:254px
+ }
+}

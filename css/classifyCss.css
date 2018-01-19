@@ -1,0 +1,66 @@
+/*
+项目负责人：赵强
+项目创建日期:2017.7.25
+最新更新:2017.7.25
+修改人员:无
+修改日期:无
+修改原因:无
+修改代码行数区间:无
+*/
+/*main*/
+#main{ background: #F5F5F5; width: 100%; border-top: 1px solid #E5E5E5; }
+#main .jutagnav{ width: 100%; height: 33px; position: relative; top: 8px; }
+#main .jutagnav .area{ width: 1200px; height: 29px; margin: 0 auto; margin-top: 14px; position: relative; }
+#main .jutagnav .area span.classify{ color: #333; line-height: 28px; }
+#main .jutagnav .area span em{ display: block; float: left; }
+#main .jutagnav .area span i{ height: 12px; width: 1px; background: #E5E5E5; display: block; float: left; margin: 4.5px 8.6px;}
+#main .jutagnav .area span.classifyNav{ position: absolute; right: 0; }
+#main .jutagnav .area span.classifyNav a{ color: #999; }
+#main .relatedNav{ width: 1200px; margin: 0 auto; margin-top: 8px; background: #fff;}
+#main .relatedNav .relatedNavCon{width: 100%; height: 37px; padding: 0 15px; line-height: 37px; }
+#main .relatedNav .relatedNavCon span{ color: #e2e2e2; }
+#main .relatedNav .relatedNavCon a{ margin-right: 4px; }
+#main .relatedNav .relatedNavCon a.one{ color: #EC1611; font-weight: bold; }
+#main .sort{ width: 100%; }
+#main .sort .sortWrap{ width: 1200px; height: 38px; margin: 0 auto; background: #fff; margin-top: 21px; margin-bottom: 21px; position: relative; }
+#main .sort .sortWrap a{ width: 59px; height: 36px; border-right: 1px solid #F2F2F2 ; display: inline-block; line-height: 36px; text-align: center; }
+#main .sort .sortWrap a:hover{ color: #EC1611; }
+#main .sort .sortWrap a.price:hover .up{ border-color:  #fff #fff #EC1611 #fff;}
+#main .sort .sortWrap a.one{ background: #EC1611; cursor:default; color: #fff; }
+#main .sort .sortWrap a.zhiKan{ width: 100px; height: 36px; padding-left: 13px; position: relative; border: none; }
+#main .sort .sortWrap a.zhiKan i{ width: 10px; height: 10px; border-radius: 50%; border:1px solid #9D9D9D; display: inline-block; position: absolute; left: 6px; top: 12px; }
+#main .sort .sortWrap a.top{ width: 100px; height: 36px; border: none; position: absolute; right: 0; }
+#main .sort .sortWrap a.top:hover i{ color: #EC1611; }
+#main .sort .sortWrap a.top i{ color: #9f9f9f; font-family: "Impact"; }
+#main .sort .sortWrap a.zhiKanOne:hover i{ border: 1px solid #EC1611; }
+#main .sort .sortWrap a.zhiKanTwo:hover i{ border: 1px solid #EC1611; }
+#main .sort .sortWrap a span{position: relative;}
+#main .sort .sortWrap a span i.up{ border-color:  #fff #fff #ccc #fff; border-style: solid; border-width: 4px;height: 0; width: 0; position: absolute; left:2px; top: -1px; }
+#main .sort .sortWrap a span i.down{ border-color: #ccc #fff #fff #fff; border-style: solid; border-width: 4px;height: 0; width: 0; position: absolute; left:2px; top: 9px; }
+#main .showcase{ width: 1200px; padding-bottom: 20px; margin: 0 auto; background: #F2F2F2; }
+#main .showcase .store{ width: 298px; height: 375px; float: left; margin-left: 1px; }
+#main .showcase .store .juZh{ width: 283px!important; margin:0 auto; position: relative;}
+#main .showcase .store .juZh:hover{ box-shadow:5px 0 10px #ddd, -5px 0 10px #ddd; }
+#main .showcase .store .juZh a.coupon{ background: url(http://www.zhe9000.com/static/zhe_image/ico_mquan.png);display: inline-block; position: absolute; z-index: 98; width: 74px; height: 74px; top: 0px; background-size: 100%; background-repeat: no-repeat; line-height: 72px; text-align: center; color: white; }
+#main .showcase .store img{ width: 283px; height: 283px; margin-left: -12px; }
+#main .showcase .store p{ width: 283px; height: 20px; line-height: 20px; text-align: center; margin-top: -20px; background: black; opacity: 0.4; color: #fff; }
+#main .showcase .store p.mouseShow{ display: none; }
+#main .showcase .store p a{ color: #fff; }
+#main .showcase .store h3{ padding: 5px 0px 0 12px; height: 20px; width: 271px; color: #666; text-align: left; font:12px/20px Arial,"微软雅黑"; white-space: nowrap; text-overflow:ellipsis; background-color: #fff; overflow: hidden;  }
+#main .showcase .store a{ margin: 0 auto; width: 265px; height: 20px;  padding: 5px 10px 0 12px; margin-top: 2px;}
+#main .showcase .store a em{ color: #f00; }
+#main .showcase .store h4{ width: 283px; height: 34px;  ; background: #fff; padding: 3px 0 6px 0; position: relative;}
+#main .showcase .store h4 em{  height: 30px; font: 33px/44px Arial; display: inline-block; line-height: 40px; color: #FF3366; margin-left: 20px; }
+#main .showcase .store h4 em b{ font-size: 12px;}
+#main .showcase .store h4 del{ font-size: 12px; color: #999; text-decoration:line-through; display: inline-block; }
+#main .showcase .store h4 .sold{ width: 72px; white-space: nowrap; text-overflow:ellipsis; text-align: right; display: block; font:12px/12px "微软雅黑"; color: #999; line-height: 21px; z-index: 1001; display: inline-block; margin-left: 4px;}
+#main .showcase .store h4 .xiangQ{ position: absolute; top: 16px; right:2px; }
+#main .showcase .store h4 .xiangQ a{ color: #FF4C66; }
+#main .pageNav{ margin: 0 auto; text-align: center; margin-bottom: 20px; padding-bottom: 30px; }
+#main .pageNav span { background: #ED0F08; color: #fff; font-weight: bold; text-align: center; display: inline-block; margin-left: 1px; padding: 10px 15px; overflow: hidden; }
+#main .pageNav span.pgPrev{ color: #bbb; font-weight: normal; background: none repeat scroll 0 0 #FFFFFF; width: 60px; border-radius: 20px 0 0 20px; }
+#main .pageNav a,#main .pageNav i{ display: inline-block; background: none repeat scroll 0 0 #FFF; margin-left: 1px; padding: 10px 15px; overflow: hidden; color: #a3370f; font-size: 14px; font-weight: bold; border-right: none; -moz-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); -webkit-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); box-shadow: 1px 1px 3px rgba(226,226,226,0.75); } 
+#main .pageNav i{ color: #d4d4d4;}
+#main .pageNav a{ transition:.8s; }
+#main .pageNav a.pgNext{ width: 60px; border-radius: 0 20px 20px 0; text-align: center; }
+#main .pageNav a:hover{ color: #FF0F38; transition:.8s; }
