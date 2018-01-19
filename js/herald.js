@@ -1,0 +1,21 @@
+$(function(){
+	$(".shua").mouseenter(function(){
+		$(this).children(".kaiQiang").animate({top:"-32px"},70);
+		$(this).children(".kaiQiangTu").animate({top:"-23px"},70);
+		$(this).children(".qiangXian").animate({top:"-4px"},70);
+		$(this).children(".qiangXianTu").animate({top:"3px"},70);
+	});
+	$(".shua").mouseleave(function(){
+		$(this).children(".kaiQiang").animate({top:"-3px"},70);
+		$(this).children(".kaiQiangTu").animate({top:"3px"},70);
+		$(this).children(".qiangXian").animate({top:"-32px"},70);
+		$(this).children(".qiangXianTu").animate({top:"-25px"},70);
+	});	
+	$(".selltext").click(function(){
+		$(this).parent().parent().parent().parent(".con").children(".saoMa").show();
+	});
+	$(".deal").mouseleave(function(){
+		$(".saoMa").hide();
+	});
+
+});
