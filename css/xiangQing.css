@@ -1,0 +1,94 @@
+/*main*/
+#main{ padding-bottom: 30px; background: #fff; }
+#main .mainNav{ width: 1200px; margin: 0 auto; height: 38px; line-height: 38px; }
+#main .mainNav a:hover{ color: #C00; text-decoration: underline; }
+#main .shopWindow{ width: 1200px; margin: 0 auto; }
+#main .shopWindow .shopImg dl dt{ width: 400px; height: 400px; border: 1px solid #e5e5e5; }
+#main .shopWindow .shopImg dl dt img{ width: 400px; height: 400px; }
+#main .shopWindow .shopImg dl dd{ width: 58px; height: 58px;float: left; margin: 16px 8.2px 0 0; border: 1px solid #e5e5e5; opacity: .6; }
+#main .shopWindow .shopImg dl dd.one{ border-color: #ec1611; opacity: 1; }
+#main .shopWindow .shopImg dl dd img{ width: 58px; height: 58px; }
+#main .shopWindow .shopCon{ margin-left: 38px; width: 747px;  }
+#main .shopWindow .shopCon .conLeft{ width: 549px; }
+#main .shopWindow .shopCon .conLeft .title{ width: 549px; margin-left: -10px; }
+#main .shopWindow .shopCon .conLeft .title h1{ font: 700 16px/24px "\5FAE\8F6F\96C5\9ED1"; color: #333; margin: -3px 0 1px 0; position: relative; }
+#main .shopWindow .shopCon .conLeft .title h3{ color: #e99494; font: 12px/20px "\5FAE\8F6F\96C5\9ED1"; }
+#main .shopWindow .shopCon .conLeft .con{ width: 512px; margin: 11px 0 0; }
+#main .shopWindow .shopCon .conLeft .con dl{ width: 100%; margin-bottom: 4px; font-family: "\5B8B\4F53"; line-height: 26px; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe{ height: 34px; background: #fff6eb; padding: 12px 18px 9px; margin: 0 -18px 10px -10px; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price{ margin-bottom: 0; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd{ width: 100%; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd strong{ color: #ec1611; font: 700 16px/30px "\5FAE\8F6F\96C5\9ED1"; display: inline-block; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd strong i{ font-size: 26px; margin-left: 3px; } 
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd del{ font-family: "\5FAE\8F6F\96C5\9ED1"; vertical-align: 2px; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd em{ color: #333; position: relative; z-index: 99; display: inline-block; vertical-align: 2px; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd em i{ width: 11px; height: 16px; background: url(../images/tihuan/xiangQingImgs.png) no-repeat -89px -284px; display: inline-block; vertical-align: middle; margin: -2px 4px 0 0; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd em label span{ color: #ec1611; font-family: arial; font-weight: 700; font-size: 15px; margin: 0 3px 0 2px; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd em>img{ width: 132px; height: 132px; display: none; position: absolute; left: -5px; top: 42px; border: 1px solid #e4e4e4; border-bottom: 0; padding: 4px; background: #fff; vertical-align: middle; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd em>b{ display: none; position: absolute; left: -5px; top: 174px; width: 132px; text-align: center; border-width: 0px 1px 1px; border-style: solid solid solid; border-color: rgb(228, 228, 228) rgb(228, 228, 228) rgb(228, 228, 228); border-image: initial; border-top: 0px; padding: 4px; background: rgb(255, 255, 255); font: 400 12px/20px 宋体; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd em:hover>img{ display: block; }
+#main .shopWindow .shopCon .conLeft .con .jiaGe .price dd em:hover>b{ display: block; }
+
+#main .shopWindow .shopCon .conLeft .con .buy{ width: 540px; margin:50px 0 0 -10px; }
+#main .shopWindow .shopCon .conLeft .con .buy div{ width:160px; height: 55px; margin-right: 10px;  }
+#main .shopWindow .shopCon .conLeft .con .buy div a{ display: block; background: #fff; color: #ec1611; width: 100%; height: 100%; text-align: center; font: 20px/55px '\5FAE\8F6F\96C5\9ED1'; border: 1px solid #ec1611; }
+#main .shopWindow .shopCon .conLeft .con .buy div:nth-child(2) a{ background: #ec1611; color: #fff; }
+#main .shopWindow .shopCon .conLeft .con .kanJia{ margin:30px 0 0 -10px; }
+#main .shopWindow .shopCon .conLeft .con .kanJia p{ height: 16px; line-height: 16px; }
+#main .shopWindow .shopCon .conLeft .con .kanJia p i{ width: 16px; height: 16px; display: inline-block;  margin: 6px 5px 0 0; background: #ec1813; color: #fff; font-size: 12px; border-radius: 3px; text-align: center; line-height: 17px; }
+#main .shopWindow .shopCon .conRight{ border: 1px solid #f2f2f2; }
+
+#main .area{ width: 1198px; height: 254px; margin: 0 auto; margin-top: 40px; border: 1px solid #f2f2f2;  }
+#main .area .areaLeft{ width: 992px; }
+#main .area .areaRight{ width: 129px; height: 254px; padding: 0 30px; border-left: 1px solid #f2f2f2; }
+
+#main .detail{ width: 1200px; height: 40px; margin: 0 auto; margin-top: 40px; border-bottom: 1px dotted #f2f2f2; background: #fafafa; }
+#main .detail dl dt{ width: 171px; background: #fafafa; height: 40px; padding: 1px 0; border-bottom: 1px solid #dfdfdf; padding-left: 12px; font: 16px/40px "\5FAE\8F6F\96C5\9ED1"; color: #333; font-weight: 700; }
+#main .detail dl dd:nth-child(2){ font-weight: 700; border-bottom: 4px solid #ff404c; border-top: 1px solid #fff; height: 38px; background: #fff; }
+#main .detail dl dd:nth-child(2) a{ height: 38px; color: #ec1611; line-height: 38px; padding: 0 28px; display: block; text-decoration: none; font-size: 16px; font-weight: 700!important; }
+#main .detail dl dd:nth-child(3){ color: #333; position: relative; }
+#main .detail dl dd:nth-child(3) a{ height: 40px; line-height: 40px; padding: 0 28px; float: left; text-decoration: none; font-size: 16px; }
+#main .detail dl dd:nth-child(3) a i{ width: 11px; height: 16px; background: url(../images/tihuan/xiangQingImgs.png) no-repeat -89px -284px; display: inline-block; vertical-align: -4%; }
+#main .detail dl dd:nth-child(3) img{ width: 132px; height: 132px; display: none; position: absolute; left: -5px; top: 42px; border: 1px solid #e4e4e4; border-bottom: 0; padding: 4px; background: #fff; vertical-align: middle; }
+#main .detail dl dd:nth-child(3) b{ display: none; position: absolute; left: -5px; top: 174px; width: 132px; text-align: center; border-width: 0px 1px 1px; border-style: solid solid solid; border-color: rgb(228, 228, 228) rgb(228, 228, 228) rgb(228, 228, 228); border-image: initial; border-top: 0px; padding: 4px; background: rgb(255, 255, 255); font: 400 12px/20px 宋体; }
+#main .detail dl dd:nth-child(3):hover img{ display: block; }
+#main .detail dl dd:nth-child(3):hover b{ display: block; }
+#main .detail dl dt,#main .detail dl dd{ float: left; }
+
+#main .main{ width: 1200px; margin:0 auto; }
+#main .main .hotShop{ width: 182px; margin-bottom: 18px; min-height: 100px; }
+#main .main .hotShop ul li{ width: 182px; height: 211px; margin-top: 18px;}
+#main .main .shangPinXQ{ width: 800px; overflow: hidden; margin-left: 18px; padding-top: 18px; }
+#main .main .xQNav{ width: 168px; float: right; padding: 10px 0 10px 20px; position: relative; margin-top: -42px; border: 1px solid #d9d9d9; z-index: 100; background: #fff; }
+#main .main .xQNav li{ width: 100%; float: left; position: relative; z-index: 2; }
+#main .main .xQNav li.dotted{ width: 10px; overflow: hidden; bottom: 10px; position: absolute; left: 43px; top: 18px; z-index: 1; background: url(../images/tihuan/dotted.png) repeat-y 0 0; }
+#main .main .xQNav li>a{ width: 100%; height: 48px; float: left; font: 16px/48px "\5FAE\8F6F\96C5\9ED1"; text-decoration: none; text-align: left; text-indent: 20px; color: #666; outline: 0; }
+#main .main .xQNav li>a em{ font-size: 14px; margin: 0 4px 0 0; color: #666; vertical-align: 1px; }
+#main .main .xQNav li>a.one{ color: #ff404c; }
+#main .main .xQNav li>a.one em{ color: #ff404c; }
+
+#main .tuiJTitle{ width: 800px; height: 40px; margin: 0 auto; background:#F5F5F5; line-height: 40px; text-align: left; margin-bottom: 20px; padding-left: -10px; }
+#main .tuiJTitle>span{ margin-left: 12px; }
+#main .tuiJian{ width: 800px; margin: 0 auto;}
+#main .tuiJian .deal{ position: relative; line-height: 20px; float: left; width: 260px; height: 302px; margin-left: 2px; }
+#main .tuiJian .deal .con{ width: 218px; height: 280px; float: left; border: 1px solid #e5e5e5; padding: 9px 10px 1px; margin: 0 10px 10px; _margin: 0 9px 10px; display: inline; text-align: left; background: #fff; position: relative; z-index: 1; }
+#main .tuiJian .deal .con>a{ font-size: 0; display: block; text-align: center; }
+#main .tuiJian .deal .con>a img{ width: 220px; height: 220px; vertical-align: top; }
+#main .tuiJian .deal .con>div{ position: absolute; font: 12px/12px "\5FAE\8F6F\96C5\9ED1"; color: #999; right: 15px; bottom: 13px; display: block; }
+#main .tuiJian .deal .con h3{ height: 30px; overflow: hidden; text-align: left; font: 12px/30px "\5FAE\8F6F\96C5\9ED1"; white-space: nowrap; text-overflow: ellipsis; width: 100%; color: #666; }
+#main .tuiJian .deal .con h3 a{ color: #666;  } 
+#main .tuiJian .deal .con h4{ height: 30px; overflow: hidden; text-align: right; background: #fff; }
+#main .tuiJian .deal .con h4 em{ color: #ec1611; letter-spacing: -2; font: 20px/20px Arial; float: left; }
+#main .tuiJian .deal .con h4 em b{ font-family: "Microsoft Yahei",Arial; font-weight: 400; font-size: 14px; margin-right: 2px; }
+#main .tuiJian .deal .con h4 span{ float: left; color: #e02f2f; line-height: 12px; font-size: 12px; text-align: left; margin-top: 7px; }
+#main .tuiJian .deal .con h4 span i{ text-decoration: line-through; padding: 0 5px; font-size: 12px; color: #999; font-family: Arial; }
+
+/*弹出层*/
+#tcErWeiMa{ width: 100%; background: #000; position: fixed; top: 0; z-index: 9998; opacity: .6; display: none; }
+.palette{ position:fixed; margin:auto; left:0; right:0; top:25%; z-index: 9999; width: 600px; height: 301px; background: #fff; opacity: 1; border-radius: 40px; display: none; }
+.palette img{ position: absolute; }
+.palette img:nth-child(2){ z-index: 10000; width: 252px; right: 78px; top: 26px; }
+.palette img:nth-child(3){ z-index: 10000; width: 200px; left: 84px; top: 92px; }
+.palette div{ position: absolute; z-index: 10001; width: 40px; height: 40px; border-radius: 50%; background: #000; opacity: .7; right: 26px; top: 132px; font-size: 16px; line-height: 40px; color: #fff; text-align: center; cursor:pointer;  }
+
+
