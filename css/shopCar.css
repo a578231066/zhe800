@@ -1,0 +1,54 @@
+#carMain{ width: 100%; }
+table,tr,td{ border-collapse: collapse; }
+#carMain .carShow{ width: 1200px; margin: 19px auto 29px; border: 1px solid #DDD; }
+#carMain .carShow .carShowTitle{ height: 50px; background: #FFF; border-bottom: 1px solid #DDD; line-height: 50px; text-indent: 20px; font-size: 23px; }
+#carMain .carShow .carShowCon{ background: #FFF; padding: 14px; }
+#carMain .carShow .carShowCon table{ border: 1px solid #DCDDDE; margin-top: 10px; }
+#carMain .carShow .carShowCon table tr{ background-color: #F9FAFB; height: 38px; }
+#carMain .carShow .carShowCon table .firstTr{ background: #eee; }
+#carMain .carShow .carShowCon table td{ border-collapse: collapse; display: table-cell; vertical-align: inherit; padding-left: 25px; border-bottom: 1px solid #DCDDDE; }
+#carMain .carShow .carShowCon table .juZ{ padding-left: 0; text-align: center; }
+#carMain .carShow .carShowCon table .queue1{ width: 60px; }
+#carMain .carShow .carShowCon table .queue1 input{ vertical-align: -2.8px;; margin-right: 3px; }
+#carMain .carShow .carShowCon table .queue2{ width: 483px; }
+#carMain .carShow .carShowCon table .queue3{ width: 100px; }
+#carMain .carShow .carShowCon table .queue4{ width: 100px; }
+#carMain .carShow .carShowCon table .queue5{ width: 140px; }
+#carMain .carShow .carShowCon table .queue5 div input{ width: 30px; margin: 0 auto; }
+#carMain .carShow .carShowCon table tbody .queue6{ width: 100px; }
+#carMain .carShow .carShowCon table tbody .queue6{ color:#f00; }
+#carMain .carShow .carShowCon table .queue7{ width: 94px; }
+#carMain .carShow .carShowCon table tbody .queue2{ padding-left: 0; padding: 10px 0; }
+#carMain .carShow .carShowCon table tbody .queue2:after{ content: ""; clear: both; display: block; }
+#carMain .carShow .carShowCon table tbody .queue2 img{ float: left; display: block; }
+#carMain .carShow .carShowCon table tbody .queue2 a{ display: block; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 5; overflow: hidden; }
+#carMain .carShow .carShowCon table tbody .queue5{ padding-left: 0; }
+#carMain .carShow .carShowCon table tbody .queue5 div{ width: 100px; margin: 0 auto; padding-left: 28px; }
+#carMain .carShow .carShowCon table tbody .queue5 a{ display: inline-block; width: 18px; height: 18px; line-height: 18px; text-align: center; border:1px solid #ccc; }
+#carMain .carShow .carShowCon table tbody .queue5 a:first{ margin-right: 5px; }
+#carMain .carShow .carShowCon table tbody .queue5 input{ display: inline-block; height: 16px; vertical-align: 1px; }
+#carMain .carShow .carShowCon table tbody .queue7 a{ display: block; width: 80; height: 24px; line-height: 24px; }
+#carMain .carShow .jieSuan{ background: #F6F7F8; border: 1px solid #EAEBEC; font-size: 14px; height: 50px; line-height: 50px; margin-top: 15px; margin: 0 14px; padding-left: 20px; }
+#carMain .carShow .jieSuan p b{ display: inline-block; }
+#carMain .carShow .jieSuan p span{ color: #f00; font-weight: 700; }
+#carMain .carShow .jieSuan p{ float: right; }
+#carMain .carShow .jieSuan .jieSuanSum{ margin-right: 20px; }
+#carMain .carShow .jieSuan .jieSuanNum{ margin-right: 20px; }
+#carMain .carShow .jieSuan a.delShop{ float: left; } 
+#carMain .carShow .jieSuan a.delShop:hover{ text-decoration: underline; color: #f00; }
+#carMain .carShow .jieSuan a.pay{ float: right; display: block; width: 200px; height: 100%; line-height: 50px; text-align: center; background: #f00; color: #fff; }
+.disab{ background: #ddd!important; color: #999!important; cursor: not-allowed; }
+.inputColor{ color:#eee; }
+
+
+
+
+
+
+
+
+
+
+
+
+
