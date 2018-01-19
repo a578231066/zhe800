@@ -1,0 +1,65 @@
+/*main*/
+#main{ width: 100%; background: #FAFAFA; }
+#main .login{ width: 1000px; margin: 20px auto; position: relative; z-index: 1; }
+#main .login .pic{ width: 450px; height: 350px; float: left; position: relative; z-index: 1; }
+#main .login .pic img{ width: 420px; height: 392px; position: absolute; z-index: 1; top: 0; left: 0; }
+#main .login .loginCon{ background-color: #FFF; width: 440px; padding: 19px 19px 29px 19px; border: solid 1px #E6E6E6; border-radius: 5px; float: right; position: relative; z-index: 1; }
+#main .login .loginCon .loginMode ul{ font-size: 0; word-spacing: -1em; border-bottom: solid 1px #E6E6E6; }
+#main .login .loginCon .loginMode ul li{ vertical-align: bottom; letter-spacing: normal; word-spacing: normal; text-align: center; display: inline-block; width: 50%; height: 40px; margin-bottom: -1px; }
+#main .login .loginCon .loginMode ul li a{ font-size: 18px; color: #999; line-height: 24px; padding-bottom: 13px; position: relative; z-index: 1; }
+#main .login .loginCon .loginMode ul li a.one{ color: #F32613; display: block; border-bottom: 3px solid #F32613;  }
+#main .login .loginCon .loginMode ul li a.one i{ font-size: 0; line-height: 0; display: block; border-color: #F32613 transparent transparent transparent; border-style: solid dashed dashed dashed; border-width: 7px; width: 0; height: 0; margin-left: -4px; position: absolute; z-index: 1; left: 50%; bottom: -17px; }
+#main .login .loginCon .loginMode .qiTaDengLu{  margin-left: 40px; }
+#main .login .loginCon .loginMode .qiTaDengLu p{ font-weight: 700;  }
+
+#main .login .loginCon .loginMode .qiTaDengLu strong a img{ width: 20px; height: 22px; margin-top: 6px;  }
+#main .login .loginCon .loginApi{ height: 200px; margin-top: 40px; padding: 0 40px 0px 40px; position: relative; }
+#main .login .loginCon .loginApi>div{ display: none; width: 352px; }
+#main .login .loginCon .loginApi .show{ position: absolute; top: 0px; display: block; }
+#main .login .loginCon .loginApi .show form{ display: block; }
+#main .login .loginCon .loginApi .show form dl{ width: 348px; background-color: #FFF; height: 52px; margin-top: -1px; border: solid 1px #E6E6E6; position: relative; z-index: 1; }
+#main .login .loginCon .loginApi .show form dl.yanZheng{ width: 228px; float: left; display: none; }
+#main .login .loginCon .loginApi .show form dl.yanZheng input{ width: 140px; }
+#main .login .loginCon .loginApi .show form dl.yanZheng dt{ width: 58px; }
+#main .login .loginCon .loginApi .show form dl dt{ font-size: 14px; line-height: 20px; color: #666; width: 72px; padding: 16px 0 16px 20px; float: left; }
+#main .login .loginCon .loginApi .show form dl dd{ height: 28px; float: left; padding: 12px 0; }
+#main .login .loginCon .loginApi .show form dl dd input{ width: 240px; font-family: "microsoft yahei"; font-size: 14px; line-height: 28px; height: 28px; padding: 0; border: none 0; }
+#main .login .loginCon .loginApi .show form .handel{ line-height: 20px; display: block; margin-top: 10px; }
+#main .login .loginCon .loginApi .show form .handel span{ color: #999; float: left; }
+#main .login .loginCon .loginApi .show form .handel span input{ margin-top: 2px; }
+#main .login .loginCon .loginApi .show form .handel a{ float: right; }
+#main .login .loginCon .loginApi .show form .submitDiv{display: block; }
+#main .login .loginCon .loginApi .show form .submitDiv .submit{ width: 350px; font-family: "microsoft yahei"; font-size: 16px; font-weight: 600; color: #FFF; background-color: #F32613; height: 42px; border: solid 1px #D91E17; border-radius: 3px; cursor: pointer; }
+/*滑块验证*/
+#drag{  position: relative; background-color: #e8e8e8; width: 350px; height: 34px; line-height: 34px; text-align: center; display: block; margin:20px 0; }
+#drag .handler{ position: absolute; top: 0px; left: 0px; width: 40px; height: 32px; border: 1px solid #ccc; cursor: move; }
+.handler_bg{ background: #fff url("../images/yanZhengHua.png") no-repeat center; }
+.handler_ok_bg{ background: #fff url("../images/chengGong.png") no-repeat center; }
+#drag .drag_bg{ background-color: #7ac23c; height: 34px; width: 0px; }
+#drag .drag_text{ position: absolute; top: 0px; width: 350px; -moz-user-select: none; -webkit-user-select: none; user-select: none; -o-user-select:none; -ms-user-select:none; }
+
+
+#main .login .loginCon .loginApi .phoneLogin form dl:nth-child(1){ position: relative; }
+#main .login .loginCon .loginApi .phoneLogin form dl:nth-child(1) dd img{ position:absolute; width:15px; height: 15px; right: 20px; top:18px; display: none; }
+/*发送短信按钮*/
+#main .login .loginCon .loginApi .phoneLogin form p{ float: left; display: none; }
+#main .login .loginCon .loginApi .phoneLogin form p a{ border: none; width: 120px; height: 54px; line-height: 54px; cursor: pointer; background: #F04540; color: #fff; margin-top: -1px; display: block; text-align: center; }
+#main .login .loginCon .loginApi .phoneLogin form .submitDiv .submit{ margin-top: 20px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
